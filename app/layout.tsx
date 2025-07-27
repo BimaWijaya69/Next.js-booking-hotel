@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer";
+import { SessionProvider } from "next-auth/react";
 import "./globals.css";
 
 const raleway = Raleway({
